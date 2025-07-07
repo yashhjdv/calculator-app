@@ -1,0 +1,54 @@
+.welcome-graphic {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  box-shadow: 0 4px 24px rgba(255, 94, 98, 0.15);
+  margin-bottom: 1.5rem;
+}
+svg {
+  display: block;
+}
+body {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.card {
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  border: none;
+}
+.card-body {
+  background: #fffbe7;
+  border-radius: 1.5rem;
+}
+h1, .display-3 {
+  font-weight: 800;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-success {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+.img-fluid.welcome-img {
+  box-shadow: 0 4px 24px rgba(255, 94, 98, 0.15);
+  border-radius: 1.2rem;
+}
+/* Custom styles for WelcomeComponent using Bootstrap */
+.card {
+  border-radius: 1.5rem;
+}
+.card-body {
+  background: #f8f9fa;
+  border-radius: 1.5rem;
+}
+h1 {
+  font-weight: 700;
+}
+.btn-success {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+}
+.img-fluid {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}

@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+.card {
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  border: none;
+}
+.card-body {
+  background: #f8f9fa;
+  border-radius: 1.5rem;
+}
+h1, h4 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.btn-primary {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+.img-fluid {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  border-radius: 1rem;
+}
+.modal-content {
+  border-radius: 1.2rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  font-weight: 600;
+}
+
+/* Custom styles for HomeComponent using Bootstrap */
+.card {
+  border-radius: 1.5rem;
+}
+.card-body {
+  background: #f8f9fa;
+  border-radius: 1.5rem;
+}
+h1, h4 {
+  font-weight: 700;
+}
+.btn-primary {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+}
+.img-fluid {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
